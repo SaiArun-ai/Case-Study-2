@@ -1,13 +1,18 @@
 body{
-    background: -webkit-repeating-radial-gradient(rgb(255, 255, 255) 10% , rgba(173, 252, 153, 0.781) 10%, rgb(245, 245, 53) 11%, rgb(204, 17, 17) 1% , rgb(12, 12, 128) 8%, rgb(28, 77, 28) 40% ,rgba(96, 111, 119, 0.685) 20%); 
+    background: -webkit-repeating-radial-gradient(rgb(255, 255, 255) 10% , rgba(173, 252, 153, 0.781) 10%, rgb(245, 245, 53) 11%, rgb(204, 17, 17) 1% , rgb(12, 12, 128) 8%, rgb(28, 77, 28) 40% ,rgba(96, 111, 119, 0.685) 20%);
+    color: white;
 }
 #OP{
     margin-left: 700px;
 }
+span,h3{
+  background-color: red;
+}
 #HeaderText{
     font-family: 'Dancing Script', sans-serif;
     font-size: 30px;
-    background-color:white;
+    background-color:white!important;
+    color: black!important;
 }
 #FiniResult{
     box-shadow: 5px 10px 15px gold;
@@ -92,4 +97,11 @@ img:hover{
     border-left-style: groove;
     border-color:rgb(52, 151, 105,0.89674);
   }
+}
+#Footer{
+  position:fixed;
+  bottom: 0px;
+  text-align:center;
+  background-color: aqua;
+  width:100%;
 }
